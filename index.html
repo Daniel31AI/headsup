@@ -15,32 +15,24 @@
             <input type="number" id="cas" value="60" min="10" max="120">
         </div>
 
-        <h2>Vyber kategorii</h2>
-        <div class="tlacitka-kategorie">
-            <button onclick="zacniHru('zeme')">Země</button>
-            <button onclick="zacniHru('zvirata')">Zvířata</button>
-            <button onclick="zacniHru('povolani')">Povolání</button>
-            <button onclick="zacniHru('filmy')">Světové filmy a seriály</button>
-            <button onclick="zacniHru('obleceni')">Značky oblečení</button>
-            <button onclick="zacniHru('firmy')">Světové firmy</button>
-            <button onclick="zacniHru('cz_filmy')">České filmy</button>
-            <button onclick="zacniHru('cz_serialy')">České seriály</button>
-            <button onclick="zacniHru('sk_filmy')">Slovenské filmy</button>
-            <button onclick="zacniHru('sk_serialy')">Slovenské seriály</button>
-            <button onclick="zacniHru('cz_herci')">Čeští herci</button>
-            <button onclick="zacniHru('cz_hudba')">České písničky</button>
-            <button onclick="zacniHru('svet_hudba')">Světové písničky</button>
-            <button onclick="zacniHru('sk_hudba')">Slovenské písničky</button>
-            <button onclick="zacniHru('nhl')">Týmy NHL</button>
-            <button onclick="zacniHru('extraliga_cz')">CZ Tipsport Extraliga</button>
-            <button onclick="zacniHru('extraliga_sk')">SK Hokejová Extraliga</button>
+        <h2>Vyber kategorie (můžeš jich označit více)</h2>
+        <div class="tlacitka-kategorie" id="seznam-kategorii">
+            <!-- Tlačítka se vygenerují přes JavaScript -->
         </div>
+        
+        <div id="start-panel" style="display: none;">
+            <button id="btn-hrat" onclick="pripravHru()">Hrát vybrané</button>
+        </div>
+    </div>
+
+    <div id="priprava" style="display: none;" onclick="odstartujOdpotocet()">
+        <h2 id="priprava-text">Klepnutím na obrazovku začneš hru</h2>
     </div>
 
     <div id="hra" style="display: none;">
         <button id="btn-krizek" onclick="ukoncitHru()">✖</button>
         <div id="casomira">60</div>
-        <h2 id="slovo">Polož si telefon na čelo...</h2>
+        <h2 id="slovo">...</h2>
     </div>
 
     <div id="vysledky" style="display: none;">
