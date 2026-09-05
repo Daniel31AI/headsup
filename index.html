@@ -8,14 +8,40 @@
 </head>
 <body>
     <div id="menu">
-        <h1>Vyber kategorii</h1>
-        <button onclick="zacniHru('zeme')">Země</button>
-        <button onclick="zacniHru('zvirata')">Zvířata</button>
-        <button onclick="zacniHru('povolani')">Povolání</button>
+        <h1>Čelovka</h1>
+        
+        <div class="nastaveni">
+            <label for="cas">Čas (vteřiny): </label>
+            <input type="number" id="cas" value="60" min="10" max="120">
+        </div>
+
+        <h2>Vyber kategorii</h2>
+        <div class="tlacitka-kategorie">
+            <button onclick="zacniHru('zeme')">Země</button>
+            <button onclick="zacniHru('zvirata')">Zvířata</button>
+            <button onclick="zacniHru('povolani')">Povolání</button>
+            <button onclick="zacniHru('filmy')">Filmy a seriály</button>
+            <button onclick="zacniHru('sport_auta')">Sport a auta</button>
+            <button onclick="zacniHru('marketing_it')">Byznys a IT</button>
+        </div>
     </div>
 
     <div id="hra" style="display: none;">
-        <h2 id="slovo">Připrav se...</h2>
+        <div id="casomira">60</div>
+        <h2 id="slovo">Polož si telefon na čelo...</h2>
+    </div>
+
+    <div id="vysledky" style="display: none;">
+        <h2>Konec hry!</h2>
+        <div class="vysledky-blok">
+            <h3 class="zelena">Uhodnuto (<span id="pocet-uhodnuto">0</span>)</h3>
+            <ul id="seznam-uhodnuto"></ul>
+        </div>
+        <div class="vysledky-blok">
+            <h3 class="cervena">Přeskočeno (<span id="pocet-preskoceno">0</span>)</h3>
+            <ul id="seznam-preskoceno"></ul>
+        </div>
+        <button class="btn-zpet" onclick="zpetDoMenu()">Zpět do menu</button>
     </div>
 
     <script src="script.js"></script>
