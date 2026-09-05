@@ -82,11 +82,9 @@ function dalsiSlovo() {
 function zpracujPohyb(event) {
     if (!muzeHadat) return;
 
-    // Osa Z funguje stejně v režimu na výšku i na šířku (směřuje skrz displej)
     let z = event.accelerationIncludingGravity.z;
 
     if (cekamNaNavrat) {
-        // Hráč vrací telefon zpět do svislé polohy na čelo
         if (z > -3 && z < 3) {
             cekamNaNavrat = false;
             document.getElementById('hra').style.backgroundColor = "#0044cc";
@@ -94,6 +92,25 @@ function zpracujPohyb(event) {
         }
         return;
     }
+
+    if (z < -6.5 || z > 6.5) {
+        muzeHadat = false;
+        cekamNaNavrat = true;
+
+        if (z > 6.5) { 
+            // Displej směřuje k zemi -> Uhodnuto (Správně)
+            uhodnuto.push(aktualniSlovo);
+            document.getElementById('hra').style.backgroundColor = "#28a745";
+            document.getElementById('slovo').innerText = "Správně!";
+        } else { 
+            // Displej směřuje ke stropu -> Přeskočeno (Špatně)
+            preskoceno.push(aktualniSlovo);
+            document.getElementById('hra').style.backgroundColor = "#dc3545";
+            document.getElementById('slovo').innerText = "Přeskočeno";
+        }
+        setTimeout(dalsiSlovo, 800);
+    }
+}
 
     if (z < -6.5 || z > 6.5) {
         muzeHadat = false;
