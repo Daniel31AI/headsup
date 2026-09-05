@@ -112,25 +112,6 @@ function zpracujPohyb(event) {
     }
 }
 
-    if (z < -6.5 || z > 6.5) {
-        muzeHadat = false;
-        cekamNaNavrat = true;
-
-        if (z < -6.5) { 
-            // Displej směřuje k zemi (sklon dopředu) -> Uhodnuto
-            uhodnuto.push(aktualniSlovo);
-            document.getElementById('hra').style.backgroundColor = "#28a745";
-            document.getElementById('slovo').innerText = "Správně!";
-        } else { 
-            // Displej směřuje ke stropu (záklon) -> Přeskočeno
-            preskoceno.push(aktualniSlovo);
-            document.getElementById('hra').style.backgroundColor = "#dc3545";
-            document.getElementById('slovo').innerText = "Přeskočeno";
-        }
-        setTimeout(dalsiSlovo, 800);
-    }
-}
-
 function ukoncitHru() {
     if (confirm("Opravdu chceš hru ukončit?")) {
         konecHry();
