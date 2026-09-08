@@ -76,7 +76,19 @@ const kategorieData = {
         "Látková vložka", "Menstruační houba", "Tampon", "Intimní gel", "Trenýrkárna", "STYX", "Nedeto", "Pietro Filipi", "Maluna", 
         "Kalíšek", "Povidlo", "Danidarx", "ZOOT", "Dedoles", "Calvin Klein", "Tommy Hilfiger", "Diesel", "Puma", "Gant", "Boss", 
         "Under Armour", "Dorina", "Modibodi", "Love Luna"
-    ] }
+    ] },
+    zamestnanci_trenyrkarny: { 
+        nazev: "Zaměstnanci Trenýrkárny", 
+        slova: [
+            "Adam Rožánek", "Tomáš Němeček", "Jiří Čermák", "Helena Ziková", "Kateřina Vančová", "Lenka Krömrová", 
+            "Tomáš Lhoták", "Adam Janulík", "Denisa Pánková", "Stanislava Oujezdská", "Ladislav Zemánek", "Eliška Jansová", 
+            "Daniel Štráchal", "Hana Levová", "Natálie Molnarová", "Lucie Levová", "Viktoriia Ischehuk", "Karel Michna", 
+            "Nikola Moravcová", "Vladyslav Dovhanyč", "Pavlína Havlová", "Tereza Hošnová", "Ondřej Matras", "Valeriia Martynenko", 
+            "Radka Pachmannová", "Jana Dvořáková", "Petr Polák", "Michaela Krejčířová", "Sabina Vašáková", "Libuše Vavřinková", 
+            "Barbora Křáková", "Lucie Nemečková", "Andrea Gottstein", "Dominika Pokorná", "Miloslava Franková", "Kristína Sekerová", 
+            "Tomáš Procházka", "Adam Fajt"
+        ] 
+    }
 };
 
 let vybraneKategorieKeys = [];
