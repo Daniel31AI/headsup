@@ -88,6 +88,38 @@ const kategorieData = {
             "Barbora Křáková", "Lucie Nemečková", "Andrea Gottstein", "Dominika Pokorná", "Miloslava Franková", "Kristína Sekerová", 
             "Tomáš Procházka", "Adam Fajt"
         ] 
+    },
+    znacky_trenyrkarna: {
+        nazev: "Značky Trenýrkárna",
+        slova: [
+            "Diesel", "Levis", "Calvin Klein", "Victoria's Secret", "Infantia", "Rip Curl", "Puma", "Styx", "Addicted", 
+            "Represent", "Trenzle", "American Eagle", "Abercrombie & Fitch", "Hollister", "Dolce & Gabbana", "Aqalogy", 
+            "ELKA LOUNGE", "Phuseckle", "Lama", "Obsessive", "Aéropostale", "Trenýrkárna", "Anais", "Zaffe", "Mosmann", 
+            "69SLAM", "Bastard", "Chama", "Foltýn", "Stanga", "Gino", "UNCS", "Twenty Five", "Funstorm", "Undrie", 
+            "Ralph Lauren", "Rifle", "Climber", "Tommy Hilfiger", "Vat", "Cress", "Shreddies", "Molvy", "Novia", "Gosh", 
+            "Horsefeathers", "Stillo", "s.Ol", "Disney", "Gina", "Umbro", "Head", "Slippsy", "Skafandr", "Bjorn Borg", 
+            "CR7", "Sergio Tacchini", "Lotto", "Champion", "Under Armour", "Happy Socks", "Andrie", "Lovelygirl", 
+            "CK ONE", "Dedoles", "Lilly", "Bellinda", "Dots Socks", "Gant", "Lonka", "Fuski", "BOMA", "VoXX", 
+            "Mons Royale", "A-dam", "Cocoon Secret", "Jockey", "Meatfly", "Emes", "Guess", "Gisela", "Fusakle", 
+            "Skinners", "Fila", "Nur Der", "DIM", "Covert", "Cornette", "Scotch & Soda", "Jack and Jones", 
+            "Christina Secret", "La Penna", "Monabella", "E plus M", "Cerdá", "Wonderbra", "Playtex", "Vuch", 
+            "Julimex", "Leilieve", "Emili", "DKNY", "John Frank", "Bodylok", "American Socks", "L&L", "Vuzky", 
+            "Nedeto", "Lee Cooper", "Reebok", "Gianvaglia", "Fine Woman", "Benysøn", "Moove", "Happy Shorts", 
+            "KAPPA", "O'neill", "Doplňkový prodej", "Hugo Boss", "Lunice", "Meracus", "AllMatters", "Anela", 
+            "Balkanova", "Bambaw", "Argital", "WUKA", "Aromatica", "Axonia", "Nobilis Tilia", "Merula Cup", "Caya", 
+            "DERMAPRO", "Dorina", "Me Luna", "Caribbean Sun", "Mooncup", "Naturcup", "nixit", "Modibodi", "Love Luna", 
+            "Equa", "Intimina", "Iroha", "Steamy", "Ulrich", "Tierra Verde", "Yuuki", "The Leaf", "Claricup", 
+            "BIOglide", "Cigale", "Česká síťovka", "FLUX", "Fun Factory", "Gentle Day", "JeJoue", "LaliCup", "Lelo", 
+            "Lunacup", "Lunette", "Luv Ur Body", "Mamicup", "Masmi", "MEDintim", "Nakladatelství Má Luna", "Natracare", 
+            "Knihy", "Natural Intimacy", "Nice Belly", "Organyc", "Purity Vision", "Satisfyer", "t.o", "Selena", 
+            "Yoni spirit", "FemCap", "Maluna", "Gynella", "Císařovnám", "Arista", "BOSS", "HUGO", "Pietro Filipi", 
+            "Pesarshop", "Steve's", "JOYdivision", "Passion", "Avanua", "Andrew Christian", "Natuty", "EcoRevolution", 
+            "ADDICTED", "ES Collection", "Sensible Options", "Angry Beards", "DAYZ", "Busy B", "Maidenform", "Hotmilk", 
+            "Atlantic", "CLEANEE", "Gabriella", "Golden Lady", "Gaubert", "Elizabeth Beauty Clinic", "Moravec", "Ecomodi", 
+            "BajaBee", "HUSKY", "Femi.Ek", "Underbelly", "Sorbetto", "Sensor", "ADVANCE nutraceutics", "MOVit Energy", 
+            "Syvela", "Verra", "Everlast", "Milton", "FAIR SQUARED", "ONLY", "Arevali", "Wooster", "Naty", "Simply Gentle", 
+            "Kaapo", "Lolitam", "Pepino", "ATTITUDE", "PIECES"
+        ]
     }
 };
 
